@@ -1,22 +1,22 @@
 
 public interface IMoveable
 {
-    int Move(int CurrentPostion);
+    int Move(int currentPosition);
 }
 
 public class MoveByOne : IMoveable
 {
-    public int Move(int CurrentPostion)
+    public int Move(int currentPosition)
     {
-        return CurrentPostion += 1;
+        return currentPosition += 1;
     }
 }
 
 public class MoveByTwo : IMoveable
 {
-    public int Move(int CurrentPostion)
+    public int Move(int currentPosition)
     {
-        return CurrentPostion += 2;
+        return currentPosition += 2;
     }
 }
 
